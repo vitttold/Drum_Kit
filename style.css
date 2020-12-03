@@ -1,0 +1,52 @@
+html {
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-size: cover;
+  background-image: url(./img/drum-chalk-sketch-blackboard.jpg);
+  background-position: center top;
+  font-size: 16px;
+}
+.keys {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.2rem solid black;
+  border-radius: 0.7rem;
+  padding: 0.5rem 0.5rem;
+  max-width: 5rem;
+  margin: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.486);
+  font: 2rem sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 0.5rem black;
+  transition: all .07s ease;
+}
+.key span {
+  font: bold 0.7rem sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
+.play {
+  border: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+  transform: scale(1.1);
+  border: 0.3rem solid #ffc600;;
+
+
+}
